@@ -1,0 +1,148 @@
+{
+	"id": "cfd3e79d-7b58-b850-8789-70055f9bdc15",
+	"name": "Invie",
+	"description": "",
+	"order": [
+		"16f7ca6f-f418-53ad-62c6-5e58ac4b29a2",
+		"0d3edb2c-0c40-fd55-5058-c2fa50290ec9",
+		"aca242ff-3ff3-8a6a-4aa9-40ad1dbd259b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1537947463024,
+	"owner": "851663",
+	"public": false,
+	"requests": [
+		{
+			"id": "0d3edb2c-0c40-fd55-5058-c2fa50290ec9",
+			"headers": "",
+			"headerData": [],
+			"url": "{{live}}api/v1/addevent",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Theme party at my Farm",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "datetime",
+					"value": "2018-09-26 07:29:55",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "message",
+					"value": "All you invited for my birthday party. Please come",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "event_type",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1538560401228,
+			"name": "localhost/invie/api/v1/addevent",
+			"description": "",
+			"collectionId": "cfd3e79d-7b58-b850-8789-70055f9bdc15",
+			"responses": []
+		},
+		{
+			"id": "16f7ca6f-f418-53ad-62c6-5e58ac4b29a2",
+			"headers": "",
+			"headerData": [],
+			"url": "{{live}}api/v1/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Kalu Charan",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mo_no",
+					"value": "847883939982",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1538033151650,
+			"name": "localhost/invie/api/v1/login",
+			"description": "",
+			"collectionId": "cfd3e79d-7b58-b850-8789-70055f9bdc15",
+			"responses": []
+		},
+		{
+			"id": "aca242ff-3ff3-8a6a-4aa9-40ad1dbd259b",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost/invie/api/v1/elist",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "cfd3e79d-7b58-b850-8789-70055f9bdc15",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost/invie/api/v1/elist",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1538033169995,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

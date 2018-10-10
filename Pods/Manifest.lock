@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.7.3)
+  - DropDown (2.3.2)
+  - DynamicBlurView (2.0.2)
+  - HandyUIKit (1.7.3)
+  - IQKeyboardManagerSwift (6.1.1)
+  - KMPlaceholderTextView (1.3.0)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
+  - Toaster (2.1.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - HandyUIKit (~> 1.6)
+  - IQKeyboardManagerSwift
+  - KMPlaceholderTextView
+  - PopupDialog
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftyJSON
+  - Toaster
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - DynamicBlurView
+    - HandyUIKit
+    - IQKeyboardManagerSwift
+    - KMPlaceholderTextView
+    - PopupDialog
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyJSON
+    - Toaster
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  HandyUIKit: 3965bfe2e5559c2d476336cc3b5d520392beaf4e
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 44f76ad16cb1dcc130aff27278ae462ea37cfbe0
+
+COCOAPODS: 1.5.3
